@@ -1,0 +1,20 @@
+{
+  "name": "live-matrics",
+  "version": "1.0.0",
+  "description": "Monitor Live Metrics Dashboard",
+  "keywords": [
+    "Live",
+    "Metrics",
+    "Dashboard"
+  ],
+  "license": "ISC",
+  "author": "Prabu Ramu",
+  "type": "module",
+  "scripts": {
+    "start:api": "npm run start --workspace=packages/api",
+    "start:ui": "npm run start --workspace=packages/ui"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}
